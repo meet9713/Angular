@@ -1,2 +1,2 @@
-# Angular
+# AngularProjectForUni
 For Uni Project
