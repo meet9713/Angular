@@ -51,7 +51,7 @@ export const ROUTES: RouteInfo[] = [
     submenu: []
   },*/
   {
-    path: '/apps/email',
+    path: '/apps/taskboard',
     title: 'My Demographics',
     icon: 'mdi mdi-account-circle',
     class: '',
@@ -109,8 +109,8 @@ export const ROUTES: RouteInfo[] = [
       
       
       /*{
-        path: '/apps/taskboard',
-        title: 'Taskboard',
+        path: '/apps/email',
+        title: 'Email',
         icon: 'mdi mdi-bulletin-board',
         class: '',
         extralink: false,

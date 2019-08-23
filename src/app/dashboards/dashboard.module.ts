@@ -16,8 +16,8 @@ import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import { DashboardRoutes } from './dashboard.routing';
 
 import { Dashboard1Component } from './dashboard1/dashboard1.component';
-import { Dashboard2Component } from './dashboard2/dashboard2.component';
-import { Dashboard3Component } from './dashboard3/dashboard3.component';
+//import { Dashboard2Component } from './dashboard2/dashboard2.component';
+//import { Dashboard3Component } from './dashboard3/dashboard3.component';
 
 @NgModule({
   imports: [
@@ -36,9 +36,9 @@ import { Dashboard3Component } from './dashboard3/dashboard3.component';
     NgxDatatableModule
   ],
   declarations: [
-    Dashboard1Component,
-    Dashboard2Component,
-    Dashboard3Component
+    Dashboard1Component
+    //Dashboard2Component,
+    //Dashboard3Component
   ]
 })
 export class DashboardModule { }

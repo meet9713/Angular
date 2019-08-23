@@ -10,53 +10,22 @@ export const AppsRoutes: Routes = [
   {
     path: '',
     children: [
+      
       {path: 'chat', 
       component: ChatComponent, 
-      data: { title: 'Chat App', urls: [ { title: 'Dashboard', url: '/dashboard' }, { title: 'Chat App' } ] } },
-      {
-        path: 'ticketlist',
-        component: TicketlistComponent,
-        data: {
-          title: 'Ticket List',
-          urls: [
-            { title: 'Dashboard', url: '/dashboard' },
-            { title: 'Ticket List' }
-          ]
-        }
-      },
-      {
-        path: 'ticketdetails',
-        component: TicketdetailsComponent,
-        data: {
-          title: 'Ticket Details',
-          urls: [
-            { title: 'Dashboard', url: '/dashboard' },
-            { title: 'Ticket Details' }
-          ]
-        }
-      },
-      {
-        path: 'taskboard',
-        component: TaskboardComponent,
-        data: {
-          title: 'Taskboard',
-          urls: [
-            { title: 'Dashboard', url: '/dashboard' },
-            { title: 'Taskboard' }
-          ]
-        }
-      },
-      {
-        path: 'fullcalendar',
-        component: FullcalendarComponent,
-        data: {
-          title: 'Full-Calendar',
-          urls: [
-            { title: 'Dashboard', url: '/dashboard' },
-            { title: 'Full-Calendar' }
-          ]
-        }
-      }
+      data: { title: 'Exercise Log', urls: [ { title: 'Dashboard', url: '/dashboard' }, { title: 'Exercise Log' } ] } },
+      
+      { path: 'ticketlist', component: TicketlistComponent,
+        data: { title: 'Food Log', urls: [ { title: 'Dashboard', url: '/dashboard' }, { title: 'Food Log' } ] } },
+      
+      { path: 'ticketdetails', component: TicketdetailsComponent,
+        data: { title: 'Add Food', urls: [ { title: 'Dashboard', url: '/dashboard' }, { title: 'Add Food' } ] } },
+      
+      { path: 'taskboard', component: TaskboardComponent, 
+      data: { title: 'My Demographics', urls: [ { title: 'Dashboard', url: '/dashboard' }, { title: 'My Demographics' } ] } },
+      
+      { path: 'fullcalendar', component: FullcalendarComponent,
+        data: { title: 'Add Exercise Duration', urls: [ { title: 'Dashboard', url: '/dashboard' }, { title: 'Add Exercise Duration' } ] } }
     ]
   }
 ];

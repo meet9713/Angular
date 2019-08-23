@@ -1,26 +1,26 @@
 import { Routes } from '@angular/router';
 
-import { NgbdpregressbarBasicComponent } from './progressbar/progressbar.component';
-import { NgbdpaginationBasicComponent } from './pagination/pagination.component';
+//import { NgbdpregressbarBasicComponent } from './progressbar/progressbar.component';
+//import { NgbdpaginationBasicComponent } from './pagination/pagination.component';
 import { NgbdAccordionBasicComponent } from './accordion/accordion.component';
 import { NgbdAlertBasicComponent } from './alert/alert.component';
 import { NgbdCarouselBasicComponent } from './carousel/carousel.component';
-import { NgbdDatepickerBasicComponent } from './datepicker/datepicker.component';
-import { NgbdDropdownBasicComponent } from './dropdown-collapse/dropdown-collapse.component';
-import { NgbdModalBasicComponent } from './modal/modal.component';
-import { NgbdPopTooltipComponent } from './popover-tooltip/popover-tooltip.component';
-import { NgbdratingBasicComponent } from './rating/rating.component';
-import { NgbdtabsBasicComponent } from './tabs/tabs.component';
-import { NgbdtimepickerBasicComponent } from './timepicker/timepicker.component';
-import { NgbdtypeheadBasicComponent } from './typehead/typehead.component';
-import { ButtonsComponent } from './buttons/buttons.component';
-import { NotifierComponent} from './notifier/notifier.component';
+//import { NgbdDatepickerBasicComponent } from './datepicker/datepicker.component';
+//import { NgbdDropdownBasicComponent } from './dropdown-collapse/dropdown-collapse.component';
+//import { NgbdModalBasicComponent } from './modal/modal.component';
+//import { NgbdPopTooltipComponent } from './popover-tooltip/popover-tooltip.component';
+//import { NgbdratingBasicComponent } from './rating/rating.component';
+//import { NgbdtabsBasicComponent } from './tabs/tabs.component';
+//import { NgbdtimepickerBasicComponent } from './timepicker/timepicker.component';
+//import { NgbdtypeheadBasicComponent } from './typehead/typehead.component';
+//import { ButtonsComponent } from './buttons/buttons.component';
+//import { NotifierComponent} from './notifier/notifier.component';
 
 export const ComponentsRoutes: Routes = [
   {
     path: '',
     children: [
-      {
+      /*{
         path: 'progressbar',
         component: NgbdpregressbarBasicComponent,
         data: {
@@ -43,7 +43,7 @@ export const ComponentsRoutes: Routes = [
             { title: 'Pagination' }
           ]
         }
-      },
+      },*/
       {
         path: 'accordion',
         component: NgbdAccordionBasicComponent,
@@ -80,7 +80,7 @@ export const ComponentsRoutes: Routes = [
           ]
         }
       },
-      {
+      /*{
         path: 'datepicker',
         component: NgbdDatepickerBasicComponent,
         data: {
@@ -199,7 +199,7 @@ export const ComponentsRoutes: Routes = [
             { title: 'Notifier' }
           ]
         }
-      }
+      }*/
     ]
   }
 ];
