@@ -11,11 +11,11 @@ import { QuillModule } from 'ngx-quill';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 
 import { AppsRoutes } from './apps.routing';
-import { ChatComponent } from './chat/chat.component';
-import { TicketlistComponent } from './ticketlist/ticketlist.component';
-import { TicketdetailsComponent } from './ticketdetails/ticketdetails.component';
-import { TaskboardComponent } from './taskboard/taskboard.component';
-import { FullcalendarComponent } from './fullcalendar/fullcalendar.component';
+import { ExerciselogComponent } from './exerciselog/exerciselog.component';
+import { FoodlogComponent } from './foodlog/foodlog.component';
+import { AddfoodComponent } from './addfood/addfood.component';
+import { DemographicComponent } from './demographic/demographic.component';
+import { AddexerciseComponent } from './addexercise/addexercise.component';
 
 @NgModule({
   imports: [
@@ -33,11 +33,11 @@ import { FullcalendarComponent } from './fullcalendar/fullcalendar.component';
     PerfectScrollbarModule
   ],
   declarations: [
-    ChatComponent,
-    TicketlistComponent,
-    TicketdetailsComponent,
-    TaskboardComponent,
-    FullcalendarComponent
+    ExerciselogComponent,
+    FoodlogComponent,
+    AddfoodComponent,
+    DemographicComponent,
+    AddexerciseComponent,
   ]
 })
 export class AppsModule { }

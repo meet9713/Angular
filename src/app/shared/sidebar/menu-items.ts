@@ -51,7 +51,7 @@ export const ROUTES: RouteInfo[] = [
     submenu: []
   },*/
   {
-    path: '/apps/taskboard',
+    path: '/apps/demographic',
     title: 'My Demographics',
     icon: 'mdi mdi-account-circle',
     class: '',
@@ -66,7 +66,7 @@ export const ROUTES: RouteInfo[] = [
     extralink: false,
     submenu: [
       {
-        path: '/apps/ticketlist',
+        path: '/apps/foodlog',
         title: 'Food Log',
         icon: 'mdi mdi-view-list',
         class: '',
@@ -74,7 +74,7 @@ export const ROUTES: RouteInfo[] = [
         submenu: []
       },
       {
-        path: '/apps/ticketdetails',
+        path: '/apps/addfood',
         title: 'Add Food',
         icon: 'mdi mdi-gamepad',
         class: '',
@@ -91,7 +91,7 @@ export const ROUTES: RouteInfo[] = [
     extralink: false,
     submenu: [
       {
-        path: '/apps/chat',
+        path: '/apps/exerciselog',
         title: 'Exercise Log',
         icon: 'mdi mdi-view-list',
         class: '',
@@ -99,7 +99,7 @@ export const ROUTES: RouteInfo[] = [
         submenu: []
       },
       {
-        path: '/apps/fullcalendar',
+        path: '/apps/addexercise',
         title: 'Add duration',
         icon: 'mdi mdi-gamepad',
         class: '',
@@ -134,7 +134,7 @@ export const ROUTES: RouteInfo[] = [
     extralink: false,
     submenu: [
       {
-        path: '/component/accordion',
+        path: '/component/bmi',
         title: 'BMI',
         icon: 'mdi mdi-chart-pie',
         class: '',
@@ -142,7 +142,7 @@ export const ROUTES: RouteInfo[] = [
         submenu: []
       },
       {
-        path: '/component/alert',
+        path: '/component/calories',
         title: 'Calories',
         icon: 'mdi mdi-message-bulleted',
         class: '',
@@ -150,7 +150,7 @@ export const ROUTES: RouteInfo[] = [
         submenu: []
       },
       {
-        path: '/component/carousel',
+        path: '/component/weight',
         title: 'Weight',
         icon: 'mdi mdi-chart-bar',
         class: '',

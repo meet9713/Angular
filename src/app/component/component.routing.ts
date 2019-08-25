@@ -2,9 +2,9 @@ import { Routes } from '@angular/router';
 
 //import { NgbdpregressbarBasicComponent } from './progressbar/progressbar.component';
 //import { NgbdpaginationBasicComponent } from './pagination/pagination.component';
-import { NgbdAccordionBasicComponent } from './accordion/accordion.component';
-import { NgbdAlertBasicComponent } from './alert/alert.component';
-import { NgbdCarouselBasicComponent } from './carousel/carousel.component';
+import { NgbdBmiBasicComponent } from './bmi/bmi.component';
+import { NgbdCaloriesBasicComponent } from './calories/calories.component';
+import { NgbdWeightBasicComponent } from './weight/weight.component';
 //import { NgbdDatepickerBasicComponent } from './datepicker/datepicker.component';
 //import { NgbdDropdownBasicComponent } from './dropdown-collapse/dropdown-collapse.component';
 //import { NgbdModalBasicComponent } from './modal/modal.component';
@@ -45,38 +45,38 @@ export const ComponentsRoutes: Routes = [
         }
       },*/
       {
-        path: 'accordion',
-        component: NgbdAccordionBasicComponent,
+        path: 'bmi',
+        component: NgbdBmiBasicComponent,
         data: {
-          title: 'Accordion',
+          title: 'BMI',
           urls: [
             { title: 'Dashboard', url: '/dashboard' },
             { title: 'ngComponent' },
-            { title: 'Accordion' }
+            { title: 'BMI' }
           ]
         }
       },
       {
-        path: 'alert',
-        component: NgbdAlertBasicComponent,
+        path: 'calories',
+        component: NgbdCaloriesBasicComponent,
         data: {
-          title: 'Alert',
+          title: 'Calories',
           urls: [
             { title: 'Dashboard', url: '/dashboard' },
             { title: 'ngComponent' },
-            { title: 'Alert' }
+            { title: 'Calories' }
           ]
         }
       },
       {
-        path: 'carousel',
-        component: NgbdCarouselBasicComponent,
+        path: 'weight',
+        component: NgbdWeightBasicComponent,
         data: {
-          title: 'Carousel',
+          title: 'Weight',
           urls: [
             { title: 'Dashboard', url: '/dashboard' },
             { title: 'ngComponent' },
-            { title: 'Carousel' }
+            { title: 'Weight' }
           ]
         }
       },
