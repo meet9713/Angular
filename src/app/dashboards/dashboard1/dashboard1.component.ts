@@ -144,10 +144,10 @@ export class Dashboard1Component implements AfterViewInit {
             bindto: '#campaign',
             data: {
                 columns: [
-                    ['Un-opened', 35],
-                    ['Clicked', 15],
-                    ['Open', 10],
-                    ['Bounced', 18],
+                    ['Un-opened', 1],
+                    ['Clicked', 1],
+                    ['Open', 1],
+                    ['Bounced', 1],
                 ],
 
                 type: 'donut'
